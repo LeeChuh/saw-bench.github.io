@@ -92,7 +92,7 @@ body {
 }
 
 .icon-item > div {
-    font-size: 1rem;
+    font-size: 1.15rem;
 }
 
 .icon-item img {
@@ -134,7 +134,7 @@ body {
 
 .authors-section,
 .affiliations-section {
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 .header-content h1 {
@@ -2060,4 +2060,74 @@ body {
     padding: 8px 16px;
     font-size: 12px;
   }
+}
+
+
+/* ===== SAW-Bench Task Colors ===== */
+
+.loc {
+  color: #E7A29C;      /* coral */
+  font-weight: 700;
+}
+
+.dir {
+  color: #7C98A6;      /* blue-gray */
+  font-weight: 700;
+}
+
+.shape {
+  color: #D67D53;      /* orange-red */
+  font-weight: 700;
+}
+
+.revplan {
+  color: #5B9877;      /* sage green */
+  font-weight: 700;
+}
+
+.mem {
+  color: #B37486;      /* dark pink */
+  font-weight: 700;
+}
+
+.aff {
+  color: #E6BD57;      /* mustard yellow */
+  font-weight: 700;
+}
+
+.red {
+  color: #c1121f;
+}
+
+
+.float-right-img {
+  float: right;
+  width: 320px;              /* adjust size */
+  margin: 0 0 15px 25px;     /* space between image & text */
+  border-radius: 6px;        /* optional: subtle rounding */
+}
+
+.float-right-figure {
+  float: right;
+  width: 500px;              /* adjust size */
+  margin: 0px -180px 0px 30px;  /* ← negative right margin pulls it right */
+}
+
+.float-right-figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.float-right-figure figcaption {
+  font-size: 1.15rem;
+  line-height: 1.4;
+  color: #555;
+  margin-top: 8px;
+  text-align: left;
+}
+.table-figure img {
+    width: 60%;          /* adjust: 60% / 65% / 75% */
+    display: block;
+    margin: 0 auto;      /* center the image */
 }
